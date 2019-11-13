@@ -1,5 +1,5 @@
-https://github.com/shhan0226/Portfolio.git
-git@github.com:shhan0226/Portfolio.git
+https://github.com/shhan0226/Git-Tutorial.git
+git@github.com:shhan0226/Git-Tutorial.git
 
 https://git-scm.com/download/win ==>설치
 cmd ==> git --version 버전 확인
@@ -7,7 +7,7 @@ git config --global user.name shhan0226
 git config --global user.email shhan0226@gmail.com
 
 1. 다운로드(클론생성)
-git clone https://github.com/shhan0226/Portfolio.git
+git clone https://github.com/shhan0226/Git-Tutorial.git
 
 2. 새로운 파일 커밋(파일 반영)
 해당 폴더에 파일 생성하고
@@ -16,3 +16,25 @@ git commit -m "Add Text File [doc.txt]"
 
 3. 원격에다 올리기
 git push
+
+----------------
+4. 파일 추가/변경시 상태확인
+git status
+git add my_module.py
+
+5. add 이전으로 리셋하기
+git reset my_module.py
+
+6. 모든 파일 반영
+git add .
+
+7. 수정된 파일 반영하기
+git add .
+
+8. 수정된 파일 반영 무시하기 (원래상태로 돌리기)
+git checkout -- 
+
+9. commit 명령어 잘못 넣을시 수정하기
+git commit --amend
+
+
