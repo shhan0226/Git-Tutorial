@@ -37,4 +37,7 @@ git checkout --
 9. commit 명령어 잘못 넣을시 수정하기
 git commit --amend
 
+-----------------------
 
+10. 원격 저장소와 로컬 저장소 같은지 확인하기
+git pull
