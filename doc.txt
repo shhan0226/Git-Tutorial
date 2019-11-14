@@ -41,3 +41,28 @@ git commit --amend
 
 10. 원격 저장소와 로컬 저장소 같은지 확인하기
 git pull
+
+11. 로그 확인
+git log
+
+12. 특정 커밋 지점으로 가고 모두 지우기
+git reset --hard [해시코드(로그로 확인함)]
+
+13. 로컬과 원격이 모두 달라지므로 push를 위해서는 -f 옵션 사용
+git push -f
+
+-----------------------------------------
+브랜치로 프로젝트 구분하기
+
+14. 브랜치 확인
+git branch
+
+15. 하나의 개발 브랜치 생성
+git branch develop
+
+16. 디벨롭 브랜치로 변경
+git checkout develop
+
+
+
+
