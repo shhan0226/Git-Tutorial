@@ -78,3 +78,43 @@ git add .
 git commit -m "~~"
 git merge develop
 
+---------------------------------------
+20. 원격 저장소 확인
+git remote
+
+21. 원격 저장소 보기
+git remote show origin
+
+22. 원격 저장소인 test 등록(추가)하기
+git remote add test https://~~~.git
+
+23. 원격 저장소 전체 목록 보기
+git remote -v
+
+24. 원격 저장소 이름을 temp로 변경하기
+git remote rename test temp
+
+25. 특정 원격 저장소 명령어 수행하기
+git log origin/master
+git merge origin/master
+git 명령어 저장소이름/브랜치
+
+26. 특정 저장소 등록 제거하기
+git remote rm temp
+
+----------------------
+git log 다루기
+
+27. 커밋 통계 자료
+git log --stat
+
+29. 브랜치 정보 그래프
+git log --graph
+
+30. 커밋 구체 정보
+git log -p -3
+
+31. 커밋 정보 지정형태 출력
+git log --pretty=oneline
+git log --pretty=format:"%h -> %an, %ar : %s" --graph
+                               헤시  작성자 날짜 주제
