@@ -63,6 +63,12 @@ git branch develop
 16. 디벨롭 브랜치로 변경
 git checkout develop
 
+17. 브랜치 합쳐주기
+git checkout master
+git merge develop
+git push
 
+18. 브랜치 삭제
+git branch -d develop
 
 
