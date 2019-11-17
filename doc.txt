@@ -1,6 +1,4 @@
-https://github.com/shhan0226/Git-Tutorial.git
-git@github.com:shhan0226/Git-Tutorial.git
-
+[git 사용법]
 https://git-scm.com/download/win ==>설치
 cmd ==> git --version 버전 확인
 git config --global user.name shhan0226
@@ -146,4 +144,13 @@ git config --global user.email "test@tset.com"
 git config --list
 
 .gitconfig를 통해서 확인할 수 있음
+
+--------------------------
+<깃 주소 정리>
+https://github.com/shhan0226/Git-Tutorial.git
+git@github.com:shhan0226/Git-Tutorial.git
+
+https://github.com/shhan0226/TensorFlow-Basics.git
+git@github.com:shhan0226/TensorFlow-Basics.git
+
 
