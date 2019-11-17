@@ -118,3 +118,32 @@ git log -p -3
 git log --pretty=oneline
 git log --pretty=format:"%h -> %an, %ar : %s" --graph
                                헤시  작성자 날짜 주제
+
+-----------------------
+git archive를 추출하기
+
+32. git archive --format=zip master -o Master.zip
+
+------------------------
+git Rebase 특정 커밋 수정하기
+
+33. 커밋 로그 보기 헤드부터 2개까지
+git rebase -i HEAD~2
+git rebase -i [헤시코드]
+
+34. comand를 확인하고 reward로 해당 수정하면 해당 커밋을 수정할 수 있다.
+
+35. 특정 커밋 삭제
+git rebase -i HEAD~3
+
+36. comand에서 drop을 넣어 지운다.
+
+-------------------------
+리눅스 git 환경설정
+git config --list
+git config --global user.name "test"
+git config --global user.email "test@tset.com"
+git config --list
+
+.gitconfig를 통해서 확인할 수 있음
+
